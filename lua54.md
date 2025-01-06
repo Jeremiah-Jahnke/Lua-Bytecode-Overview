@@ -55,11 +55,11 @@ This section breaks down the **constants** used by the function.
 | Field                  | Value                                    | Description                                                                    |
 |------------------------|------------------------------------------|--------------------------------------------------------------------------------|
 | **Constants Count**    | `0x82`                                   | Number of constants used by the function                                        |
-|
+|||
 | **Constant Type**      | `0x04`                                   | Type of constant (string in this case)                                          |
 | **String Size**        | `0x86`                                   | String Size                                                |
 | **Constant Value**     | `0x70 0x72 0x69 0x6E 0x74`               | Constant string value: `"print"`                                         |
-|
+|||
 | **Constant Type**      | `0x04` | Type of constant (string in this case)                                          |
 | **String Size**        | `0x8E` 								 | String Size                                                |
 | **Constant Value**     | `0x48 0x65 0x6C 0x6C 0x6F 0x2C 0x20 0x57 0x6F 0x72 0x6C 0x64 0x21` | Constant string value: `"Hello, World!"`                                            |
