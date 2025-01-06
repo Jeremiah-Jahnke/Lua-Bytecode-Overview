@@ -122,4 +122,11 @@ This section contains **debug information** for the function, including line num
 00 00 00 80 80 81 85 5F 45 4E 56
 ```
 
+#### How to dump
+When I was dumping Lua 5.4 bytecode and trying to understand it. 
+I simply modified `ldump.c` and printed out everything I needed to know.
+
+### Resources
+- [Lua 5.4 ldump.c](https://www.lua.org/source/5.4/ldump.c.html)
+
 ---
