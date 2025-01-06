@@ -9,16 +9,16 @@ This table provides a breakdown of the **Lua header** section in the bytecode fo
 
 | Field                | Value                                    | Description                                                                          |
 |----------------------|------------------------------------------|--------------------------------------------------------------------------------------|
-| **Esc**              | `1b`                                     | Escape character                                                                     |
-| **Signature**        | `4C 75 61`                               | Signature for Lua 5.4 (`"Lua"`)                                                      |
-| **Version**          | `54`                                     | Lua version (in hexadecimal)                                                         |
-| **Format**           | `00`                                     | Format version                                                                       |
-| **Luac Data**        | `19 93 0D 0A 1A 0A`                      | Luac Data                                                                            |
-| **Instruction Size** | `04`                                     | Size of each instruction in bytes                                                    |
-| **Lua Integer Size** | `08`                                     | Size of Lua integers in bytes                                                        |
-| **Lua Number Size**  | `08`                                     | Size of Lua floating-point numbers (double precision)                                |
-| **Luac Int**         | `78 56 00 00 00 00 00 00`                | Lua integer (example: `0x00005678` in little-endian format)                          |
-| **Luac Num**         | `00 00 00 00 00 28 77 40`                | Lua number in IEEE 754 double-precision floating-point format (370.5 in this case)   |
+| **Esc**              | `0x1b`                                     | Escape character                                                                     |
+| **Signature**        | `0x4C 0x75 0x61`                               | Signature for Lua 5.4 (`"Lua"`)                                                      |
+| **Version**          | `0x54`                                     | Lua version (in hexadecimal)                                                         |
+| **Format**           | `0x00`                                     | Format version                                                                       |
+| **Luac Data**        | `0x19 0x93 0x0D 0x0A 0x1A 0x0A`                      | Luac Data                                                                            |
+| **Instruction Size** | `0x04`                                     | Size of each instruction in bytes                                                    |
+| **Lua Integer Size** | `0x08`                                     | Size of Lua integers in bytes                                                        |
+| **Lua Number Size**  | `0x08`                                     | Size of Lua floating-point numbers (double precision)                                |
+| **Luac Int**         | `0x78 0x56 0x00 0x00 0x00 0x00 0x00 0x00`                | Lua integer (example: `0x00005678` in little-endian format)                          |
+| **Luac Num**         | `0x00 0x00 0x00 0x00 0x00 0x28 0x77 0x40`                | Lua number in IEEE 754 double-precision floating-point format (370.5 in this case)   |
 
 ---
 
