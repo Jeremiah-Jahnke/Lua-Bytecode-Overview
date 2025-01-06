@@ -98,8 +98,8 @@ This section contains **debug information** for the function, including line num
 | **Absolute Line Info** | `0x80`              | Absolute line number information                                                |
 | **Local Variables**    | `0x80`                                   | Number of local variables used                                                  |
 | **Upvalue Names**      | `0x81`                                   | Number of upvalue names used                                                    |
-| **Upvalue Name**       | `0x85`
-| **Upvalue Name**       | `0x5F 0x45 0x4E 0x56`                    | Upvalue name: `"ENV"`                                                          |
+| **Upvalue Name Size**       | `0x85`
+| **Upvalue Name**       | `0x5F 0x45 0x4E 0x56`                    | Upvalue name: `"_ENV"`                                                          |
 
 ---
 
